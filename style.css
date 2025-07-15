@@ -1,0 +1,32 @@
+
+.board {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    color: green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 40px;
+}
+
+.cell {
+    color: blue;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: aliceblue;
+
+    width: 25px;
+    height: 25px;
+}
+
+.green {
+    background-color: greenyellow;
+}
+.red {
+    background-color: red;
+}
